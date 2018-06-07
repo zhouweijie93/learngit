@@ -1,0 +1,27 @@
+GitHub：zhouweijie93		zwj19931214
+
+1、git add <file>						--提交文件到暂存区
+2、git commit -m "description" 			--提交文件到版本库
+3、git reset --hard HEAD^^				--提交文件到版本库后，回退
+4、git log								--查看历史修改记录
+5、git log --pretty=oneline				--查看历史修改记录（简洁）
+6、git reset --hard f98b				--回到指定版本
+7、git reflog							--查看命令历史，以便回到哪个版本
+8、git diff HEAD -- <file>				--查看工作区与版本库最新版本区别
+9、git checkout -- <file>				--工作区的修改全部撤销
+										  修改后还没放到暂存区，撤销修改和版本库一致
+										  添加到暂存区，又作了修改，撤销修改回到添加暂存区后状态
+10、git reset HEAD <file>				--把暂存区修改撤销掉，重新放回工作区
+11、git rm <file>						--版本库中删除文件，再git commit
+										  错删（手动删除文件，git rm <file>）,git checkout -- <file>恢复
+12、git remote add origin git@github.com:zhouweijie93/learngit.git
+										--关联本地库与远程库
+13、git push -u origin master			--从本地库推送内容到远程库
+14、git clone git@github.com:zhouweijie93/gitskills.git
+										--从远程库克隆一个本地库
+15、git checkout -b dev					--创建dev分支并切换到dev上
+    相当于：git branch dev 
+	        git checkout dev
+16、git branch							--查看当前分支
+17、git merge dev						--合并指定分支(dev)到当前分支(master)
+18、git branch -d dev					--删除分支(dev)
