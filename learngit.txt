@@ -25,3 +25,7 @@ GitHub：zhouweijie93		zwj19931214
 16、git branch							--查看当前分支
 17、git merge dev						--合并指定分支(dev)到当前分支(master)
 18、git branch -d dev					--删除分支(dev)
+19、git log --graph --pretty=oneline --abbrev-commit
+										--查看分支合并情况
+20、git merge --no-ff -m "merge with no-ff" dev
+										--合并分支并commit
