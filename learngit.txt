@@ -29,3 +29,12 @@ GitHub：zhouweijie93		zwj19931214
 										--查看分支合并情况
 20、git merge --no-ff -m "merge with no-ff" dev
 										--合并分支并commit
+21、git stash							--保存当前未完成的工作，便于切换到其他分支出来紧急问题
+22、git stash pop						--恢复已保存的未完成工作，并删除stash
+23、git stash list						--查看已保存的未完成工作
+24、git branch -D dev					--强制删除未合并分支
+25、git remote -v						--查看当前连接远程库信息
+26、git push origin master				--将master分支上的所以本地提交推送到远程库
+27、git checkout -b dev origin/dev		--多人在dev上修改，创建本地dev分支
+28、git branch --set-upstream-to=origin/dev dev
+										--本地dev分支与远程origin/dev分支连接

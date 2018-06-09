@@ -2,4 +2,8 @@
 0987654321
 1213242425
 1213135466
+<<<<<<< HEAD
 git is free software.
+=======
+git is one free software.
+>>>>>>> dev
